@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Aditya Suryavanshi — Physics enthusiast, JEE aspirant, and passionate coder creating modern interactive web experiences." />
+  <title>Aditya's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preloader-text">AS</div>
+  </div>
+
+  <header class="nav">
+    <div class="brand">Aditya</div>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="section dark">
+    <canvas id="particles" data-parallax="0.2"></canvas>
+    <div class="container">
+      <h1>Aditya Suryavanshi</h1>
+      <h2><span id="typing"></span></h2>
+      <div class="actions">
+        <a class="btn" href="assets/resume.pdf" target="_blank">View Resume</a>
+        <a class="btn" href="https://github.com/Adi0oo0/aditya.github.io" target="_blank">View Projects</a>
+        <a class="btn" href="#contact">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section accent">
+    <canvas id="waves" data-parallax="0.1"></canvas>
+    <div class="container">
+      <h2 class="heading">About Me</h2>
+      <p class="lead">
+        I’m Aditya — a JEE aspirant and physics lover with a classic taste for clean design and logical problem solving. 
+        I enjoy building interactive web experiences where math meets motion.
+      </p>
+      <ul class="list">
+        <li>Strong in Physics & Math</li>
+        <li>JavaScript • Python • C++</li>
+        <li>Front‑end animations & Canvas simulations</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section dark">
+    <canvas id="planetary" data-parallax="0.15"></canvas>
+    <div class="container">
+      <h2 class="heading">Projects</h2>
+      <div class="cards">
+        <a class="card" href="https://github.com/Adi0oo0/aditya.github.io" target="_blank">
+          <h3>Portfolio on GitHub</h3>
+          <p>The source for this site. Clean structure, animations, and classic dark theme.</p>
+        </a>
+        <div class="card">
+          <h3>Physics Playground</h3>
+          <p>Canvas experiments: waves, planetary orbits, and a lively double pendulum.</p>
+        </div>
+        <div class="card">
+          <h3>Problem Solver Notes</h3>
+          <p>Short write‑ups on tricky JEE Physics & Math problems, with visuals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="section accent">
+    <canvas id="doublePendulum" data-parallax="0.1"></canvas>
+    <div class="container">
+      <h2 class="heading">Achievements</h2>
+      <ul class="list">
+        <li>Deep practice in JEE Physics & Math — kinematics, waves, electromagnetism.</li>
+        <li>Built interactive simulations to understand systems visually.</li>
+        <li>Strong logic and reasoning mindset; consistent problem‑solving routines.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section dark solid">
+    <div class="container">
+      <h2 class="heading">Contact Me</h2>
+      <form id="contactForm" action="https://formspree.io/f/xpwlnnyy" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="_replyto" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+      <div class="socials">
+        <a href="mailto:adityasuryavanshi7711@gmail.com">Email</a>
+        <a href="https://github.com/Adi0oo0" target="_blank">GitHub</a>
+        <a href="#" target="_blank">LinkedIn (soon)</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div>© <span id="year"></span> Aditya Suryavanshi</div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
